@@ -1,0 +1,7 @@
+{:app-name "vlmqtt"
+
+ ;; gui server
+ :api {:port 8811}
+ ;; mqtt
+ :mqtt-broker "tcp://172.21.101.21:1883"
+ :mqtt-subs {"vacuum/#" 0}}
